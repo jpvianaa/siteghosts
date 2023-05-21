@@ -1,0 +1,152 @@
+body{
+    font-family: Arial;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+main{
+    text-align: justify;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    width: 96px;
+    height: 96px;
+    border-radius:50%;
+    margin: auto;
+    display: block;
+}
+
+#leg1{
+    text-align: center;
+    color: white;
+    font-size: 16pt;
+    padding: 9pt;
+}
+
+#leg2{
+    text-align: center;
+    color: rgb(116, 111, 111);
+    font-size: 12pt;
+}
+
+a{
+    /* padding: auto; */
+    margin-top: 20px;
+    /* border: solid, 1px, rgb(226, 6, 6); */
+    font-size: 16pt;
+    transition: transform 0.4s ease;
+    display: block;
+    line-height: 300%;
+    border-radius: 100px;
+    text-align: center;
+    margin-bottom: 2%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 37, 37);
+}
+
+.botoes{
+    position: absolute;
+    /* pointer-events: none; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.tamanho{
+    margin: 10px 0px 10px 11px;
+    width: 42px;
+    height: 42px;
+    border-radius: 0%;
+}
+
+.tamanhotk{
+    margin: 4px 0px 10px 5px;
+    width: 56px;
+    height: 56px;
+    border-radius: 0%;
+}
+
+.tamanhodc{
+    margin: 15px 0px 10px 15px;
+    width: 36px;
+    height: 36px;
+    border-radius: 0%;
+}
+
+.tamanhoinsta{
+    margin: 11px 0px 10px 14px;
+    width: 42px;
+    height: 42px;
+    border-radius: 0%;
+}
+
+/*
+#dcbotao{
+    background-color: rgb(114,137,218);
+}
+
+#connectbotao{
+    background-color: rgb(255, 134, 55); 
+}
+
+#lojabotao{
+    background-color: rgb(63, 59, 59);
+}
+
+#tiktokbotao{
+    background-color: rgb(185, 106, 215);
+}
+
+#instabotao{
+    background-color: rgb(220, 58, 133);
+} */
+
+#dcbotao:hover{
+    transform: scale(1.1);
+    background-color: rgb(114,137,218);
+}
+
+#connectbotao:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 134, 55); 
+}
+
+#lojabotao:hover{
+    transform: scale(1.1);
+    background-color: rgb(177, 163, 163);
+}
+
+#tiktokbotao:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 0, 80);
+}
+
+#instabotao:hover{
+    transform: scale(1.1);
+    background-color: rgba(229, 76, 81, 0.918);
+}
+
+footer{
+    /* position: fixed; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: auto;
+    padding-top: 50px;
+    color: white;
+    width: 100%;
+    /* background-color: black; */
+}
+
+#copyright{
+    font-size: 12pt;
+    text-align: center;
+    /* margin-top: 20px; */
+    color: rgb(255, 255, 255);
+}
